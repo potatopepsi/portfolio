@@ -1,0 +1,246 @@
+body{
+    /* background-color: #6096B4; 
+    */
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-size: cover;
+    background-clip: content-box;
+    border: 0px solid white;
+    box-shadow: inset 0 0 0 10px #cfdff0;
+    background: linear-gradient(-45deg, #fca6ac, #2176cc, #ff7d6e, #e8e7cb);
+    background-size: 400% 400%;
+    animation: gradient 60s ease infinite;
+    
+    overflow: auto;
+
+
+    font-family: 'Satoshi', sans-serif;
+    color: #FFFFFF;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+p.pref{
+    float: right;
+}
+a{
+    width:fit-content;
+    display: block;
+    padding: 4px;
+}
+a:linked{
+    color:#FFFFFF;
+}
+a:visited {
+    color: white;
+}
+a:hover {
+    color: hotpink;
+}
+a:active {
+    color: rgb(146, 146, 239);
+  }
+.preferences{
+    display: block;
+    float: right;
+    font-size: 15px;
+    text-align: center;
+}
+.button{
+    visibility: hidden;
+    margin-right: -40px;
+    font-family: 'Satoshi', sans-serif;
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 8px 8px;
+    text-align: center;
+    font-size: 16px;
+}
+.label{
+    visibility: hidden;
+    margin-right: -40px;
+    font-size: 12px; 
+    text-align:center; 
+}
+.label2{
+    visibility: visible;
+    margin-right: -40px;
+    font-size: 12px; 
+    text-align:center; 
+}
+.Hidden{
+    visibility: visible;
+    margin-right: -40px;
+    font-family: 'Satoshi', sans-serif;
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 8px 8px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.Sight{
+    visibility: visible;
+    margin-right: -40px;
+    font-family: 'Satoshi', sans-serif;
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 8px 8px;
+    text-align: center;
+    font-size: 16px;
+}
+  .About {
+    /* display: inline-block; */
+    width: 75%;
+    height: 45%;
+    padding: 2px 9px;
+    background-color:gray;
+    float:right;
+    position: relative;
+    top: 30px;
+    opacity: 60%
+ }
+ .Technologies {
+    /* display: inline-block; */
+    width: 10%;
+    height: 10%;
+    padding: 2px 9px;
+    background-color:gray;
+
+    float:left;
+    position: relative;
+    top: 20px;
+    /* right: 500px; */
+    opacity: 60%
+ }
+ .Languages {
+    /* display: inline-block; */
+    width: 10%;
+    height: 10%;
+    padding: 2px 9px;
+    background-color:gray;
+
+    float:left;
+    position: relative;
+    top: 100px;
+    right: 150px;
+    opacity: 60%
+ }
+ .Tools {
+    /* display: inline-block; */
+    width: 10%;
+    height: 10%;
+    padding: 2px 9px;
+    background-color:gray;
+
+    float:left;
+    position: relative;
+    top: 270px;
+    right: 300px;
+    opacity: 60%
+ }
+ .box {
+    background-color: white;
+    opacity: 50%;
+    color: black;
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+    height: 49px;
+    width: 22%;
+    margin: 5px 1% 5px 1%;
+    display: inline-block;
+    position: absolute;
+    transition: height 0.5s;
+    -webkit-transition: height 0.5s;
+    text-align: center;
+    overflow: hidden;
+    top:150px;
+
+  }
+  .box:hover {
+    height: 200px;
+  }
+  .box2 {
+    background-color: white;
+    opacity: 50%;
+    color: black;
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+    height: 49px;
+    width: 22%;
+    margin: 5px 1% 5px 1%;
+    display: inline-block;
+    position: absolute;
+    transition: height 0.5s;
+    -webkit-transition: height 0.5s;
+    text-align: center;
+    overflow: hidden;
+    top:150px;
+    right: 200px;
+
+  }
+  .box2:hover {
+    height: 270px;
+  }
+  .box3 {
+    background-color: white;
+    opacity: 50%;
+    color: black;
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+    height: 49px;
+    width: 22%;
+    margin: 5px 1% 5px 1%;
+    display: inline-block;
+    position: absolute;
+    transition: height 0.5s;
+    -webkit-transition: height 0.5s;
+    text-align: center;
+    overflow: hidden;
+    top: 370px;
+  }
+  .box3:hover {
+    height: 270px;
+  }
+  .box4 {
+    background-color: white;
+    opacity: 50%;
+    color: black;
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+    height: 49px;
+    width: 22%;
+    margin: 5px 1% 5px 1%;
+    display: inline-block;
+    position: absolute;
+    transition: height 0.5s;
+    -webkit-transition: height 0.5s;
+    text-align: center;
+    overflow: hidden;
+    top: 420px;
+    right: 200px;
+
+  }
+  .box4:hover {
+    height: 270px;
+  }
+  a.boxlink{
+    color:black;
+    text-align:center;
+    display: inline-block;
+
+  }
