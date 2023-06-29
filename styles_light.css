@@ -21,7 +21,6 @@ body{
     font-family: 'Satoshi', sans-serif;
     color: #719382;
 }
-
 @keyframes gradient {
     0% {
         background-position: 0% 50%;
@@ -37,9 +36,22 @@ p.pref{
     float: right;
 }
 a{
+    width:fit-content;
     display: block;
     padding: 4px;
 }
+a:linked{
+    color:#719382;
+}
+a:visited {
+    color: 719382;
+}
+a:hover {
+    color: hotpink;
+}
+a:active {
+    color: rgb(146, 146, 239);
+  }
 .preferences{
     display: block;
     float: right;
@@ -92,3 +104,123 @@ a{
     text-align: center;
     font-size: 16px;
 }
+  .About {
+    /* display: inline-block; */
+    width: 75%;
+    height: 45%;
+    padding: 2px 9px;
+    background-color:wheat;
+    float:right;
+    position: relative;
+    top: 30px;
+    opacity: 60%
+ }
+ .box {
+    background-color: wheat;
+    opacity: 50%;
+    color: #4e6157;
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+    height: 49px;
+    width: 22%;
+    margin: 5px 1% 5px 1%;
+    display: inline-block;
+    position: absolute;
+    transition: height 0.5s;
+    -webkit-transition: height 0.5s;
+    text-align: center;
+    overflow: hidden;
+    top:100px;
+    right: 600px;
+
+  }
+  .box:hover {
+    height: 240px;
+  }
+  .box2 {
+    background-color: wheat;
+    opacity: 50%;
+    color: #4e6157;
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+    height: 49px;
+    width: 22%;
+    margin: 5px 1% 5px 1%;
+    display: inline-block;
+    position: absolute;
+    transition: height 0.5s;
+    -webkit-transition: height 0.5s;
+    text-align: center;
+    overflow: hidden;
+    top:100px;
+    right: 200px;
+
+  }
+  .box2:hover {
+    height: 240px;
+  }
+  .box3 {
+    background-color: wheat;
+    opacity: 50%;
+    color: #4e6157;
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+    height: 49px;
+    width: 22%;
+    margin: 5px 1% 5px 1%;
+    display: inline-block;
+    position: absolute;
+    transition: height 0.5s;
+    -webkit-transition: height 0.5s;
+    text-align: center;
+    overflow: hidden;
+    top: 360px;
+    right: 600px;
+  }
+  .box3:hover {
+    height: 320px;
+  }
+  .box4 {
+    background-color: wheat;
+    opacity: 50%;
+    color: #4e6157;
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+    height: 49px;
+    width: 22%;
+    margin: 5px 1% 5px 1%;
+    display: inline-block;
+    position: absolute;
+    transition: height 0.5s;
+    -webkit-transition: height 0.5s;
+    text-align: center;
+    overflow: hidden;
+    top: 360px;
+    right: 200px;
+
+  }
+  .box4:hover {
+    height: 320px;
+  }
+  a.boxlink{
+    color:#4e6157;
+    text-align:center;
+    display: inline-block;
+
+  }
+  .smalltech h2{
+    font-size: 15px;
+  }
+  .smalltech p{
+    font-size: 10px;
+  }
+  a.buttonish{
+    margin-right: -40px;
+    font-family: 'Satoshi', sans-serif;
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 8px 8px;
+    text-align: center;
+    font-size: 16px;
+  }

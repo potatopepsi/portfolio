@@ -114,45 +114,6 @@ a:active {
     top: 30px;
     opacity: 60%
  }
- .Technologies {
-    /* display: inline-block; */
-    width: 10%;
-    height: 10%;
-    padding: 2px 9px;
-    background-color:gray;
-
-    float:left;
-    position: relative;
-    top: 20px;
-    /* right: 500px; */
-    opacity: 60%
- }
- .Languages {
-    /* display: inline-block; */
-    width: 10%;
-    height: 10%;
-    padding: 2px 9px;
-    background-color:gray;
-
-    float:left;
-    position: relative;
-    top: 100px;
-    right: 150px;
-    opacity: 60%
- }
- .Tools {
-    /* display: inline-block; */
-    width: 10%;
-    height: 10%;
-    padding: 2px 9px;
-    background-color:gray;
-
-    float:left;
-    position: relative;
-    top: 270px;
-    right: 300px;
-    opacity: 60%
- }
  .box {
     background-color: white;
     opacity: 50%;
@@ -168,11 +129,12 @@ a:active {
     -webkit-transition: height 0.5s;
     text-align: center;
     overflow: hidden;
-    top:150px;
+    top:100px;
+    right: 600px;
 
   }
   .box:hover {
-    height: 200px;
+    height: 240px;
   }
   .box2 {
     background-color: white;
@@ -189,12 +151,12 @@ a:active {
     -webkit-transition: height 0.5s;
     text-align: center;
     overflow: hidden;
-    top:150px;
+    top:100px;
     right: 200px;
 
   }
   .box2:hover {
-    height: 270px;
+    height: 240px;
   }
   .box3 {
     background-color: white;
@@ -211,10 +173,11 @@ a:active {
     -webkit-transition: height 0.5s;
     text-align: center;
     overflow: hidden;
-    top: 370px;
+    top: 360px;
+    right: 600px;
   }
   .box3:hover {
-    height: 270px;
+    height: 320px;
   }
   .box4 {
     background-color: white;
@@ -231,16 +194,32 @@ a:active {
     -webkit-transition: height 0.5s;
     text-align: center;
     overflow: hidden;
-    top: 420px;
+    top: 360px;
     right: 200px;
 
   }
   .box4:hover {
-    height: 270px;
+    height: 320px;
   }
   a.boxlink{
     color:black;
     text-align:center;
     display: inline-block;
 
+  }
+  .smalltech h2{
+    font-size: 15px;
+  }
+  .smalltech p{
+    font-size: 10px;
+  }
+  a.buttonish{
+    margin-right: -40px;
+    font-family: 'Satoshi', sans-serif;
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 8px 8px;
+    text-align: center;
+    font-size: 16px;
   }

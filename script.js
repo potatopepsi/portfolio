@@ -1,7 +1,3 @@
-function toggleTheme(value) {
-    document.getElementsByTagName('link').href = value;
-}
-
 function toggleHidden(){
 
     // document.getElementById('hidden').style.visibility ='hidden';
