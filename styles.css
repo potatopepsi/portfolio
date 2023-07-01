@@ -106,7 +106,7 @@ a:active {
   .About {
     /* display: inline-block; */
     width: 75%;
-    height: 45%;
+    height: 35%;
     padding: 2px 9px;
     background-color:gray;
     float:right;
@@ -130,7 +130,7 @@ a:active {
     text-align: center;
     overflow: hidden;
     top:100px;
-    right: 600px;
+    right: 42%;
 
   }
   .box:hover {
@@ -152,7 +152,7 @@ a:active {
     text-align: center;
     overflow: hidden;
     top:100px;
-    right: 200px;
+    right: 14%;
 
   }
   .box2:hover {
@@ -174,7 +174,7 @@ a:active {
     text-align: center;
     overflow: hidden;
     top: 360px;
-    right: 600px;
+    right: 42%;
   }
   .box3:hover {
     height: 320px;
@@ -195,7 +195,7 @@ a:active {
     text-align: center;
     overflow: hidden;
     top: 360px;
-    right: 200px;
+    right: 14%;
 
   }
   .box4:hover {
@@ -208,10 +208,10 @@ a:active {
 
   }
   .smalltech h2{
-    font-size: 15px;
+    font-size: 20px;
   }
   .smalltech p{
-    font-size: 10px;
+    font-size: 15px;
   }
   a.buttonish{
     margin-right: -40px;
